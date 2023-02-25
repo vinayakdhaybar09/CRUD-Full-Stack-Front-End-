@@ -1,0 +1,40 @@
+.form_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid gray;
+    padding: 50px;
+    width: 30%;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.contact_form input{
+    padding: 10px;
+    outline: none;
+    border: none;
+    background-color: rgb(241, 241, 241);
+    border-radius: 5px;
+    width: 100%;
+}
+
+.contact_form .btn_save{
+    background-color: rgb(46, 134, 53);
+    color: white;
+    cursor: pointer;
+}
+
+.contact_form .btn_save:hover{
+    background-color: rgb(6, 80, 6);
+}
+
+.contact_form .btn_back{
+    background-color: rgb(59, 59, 59);
+    color: white;
+    cursor: pointer;
+}
